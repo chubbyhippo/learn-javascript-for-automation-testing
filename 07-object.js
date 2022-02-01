@@ -24,7 +24,7 @@ class Person {
     }
 }
 
-let newPerson = new Person()
+let newPerson = new Person("Hello", "World")
 console.log(newPerson);
 console.log(newPerson);
 Person.prototype.age = 22
